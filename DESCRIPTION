@@ -1,9 +1,11 @@
 Package: coleR
 Type: Package
-Title: What the package does (short line)
+Title: Misc Functions
 Version: 1.0
 Date: 2015-07-06
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Cole Beck [aut, cre]
+Maintainer: Cole Beck <cole.beck@vanderbilt.edu>
+Authors@R: c(person("Cole", "Beck", role = c("aut", "cre"),
+    email = "cole.beck@vanderbilt.edu"))
+Description: Helper functions
+License: GPL (>= 2)
