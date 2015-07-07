@@ -4,12 +4,15 @@
 \alias{paste.rows}
 \title{Paste Rows}
 \usage{
-paste.rows(x, collapse = " ")
+paste.rows(x, collapse = " ", digits = NA)
 }
 \arguments{
 \item{x}{Matrix or data.frame.}
 
 \item{collapse}{Character. String to separate column values.}
+
+\item{digits}{Integer. Number of decimal places to use for floating-
+point numbers.}
 }
 \description{
 Paste elements in each row together.
@@ -17,5 +20,6 @@ Paste elements in each row together.
 \examples{
 df <- data.frame(id=1:10, vals=rnorm(10))
 paste.rows(df, '|')
+paste.rows(df, '|', 5)
 }
 
